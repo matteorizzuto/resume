@@ -7,10 +7,11 @@
 % Preliminary Declarations
 
 % Extend the article class
-\LoadClass[letterpaper,11pt]{article}
+\LoadClass[letterpaper,12pt]{article}
 
 % Typography packages
-\RequirePackage[defaultsans]{droidsans}
+\RequirePackage[osf]{mathpazo}
+\RequirePackage[T1]{fontenc}
 \RequirePackage{textcomp}
 
 % Title and list formatting packages
@@ -32,10 +33,10 @@
 % More Declarations
 
 % Use sans serif font
-\renewcommand{\familydefault}{\sfdefault}
+%\renewcommand{\familydefault}{\sfdefault}
 
 % Turn off page numbering
-\pagestyle{empty}
+% \pagestyle{empty}
 
 % Turn off indentation
 \setlength{\parindent}{0pt}
